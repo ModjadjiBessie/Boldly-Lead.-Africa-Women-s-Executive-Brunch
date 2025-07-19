@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boldly Lead Annual Women's Brunch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header style="background-color: #e4a9ab; height: 100vh; color: white; position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 2rem 2rem 0 2rem;">
+
+  <!-- Navigation Bar -->
+  <nav>
+    <img src="Logo.png" alt="Logo">
+    <div>
+      <a href="#about" style="color: white;">About Us</a>
+      <a href="#speakers" style="color: white;">Speakers</a>
+      <a href="#rsvp" style="color: #white;">RSVP</a>
+    </div>
+  </nav>
+
+  <!-- ✅ Event Details Left-Aligned -->
+  <div style="position: absolute; top: 100px; left: 40px; text-align: left; max-width: 300px;">
+    <h3 style="margin-bottom: 0.5rem; font-size: 1.3rem; color: #fff;">Boldly Lead. Africa – Women's Executive Brunch</h3>
+    <p style="margin: 0.2rem 0; color: #fff;"><strong>Venue:</strong> Bryanston Country Club</p>
+    <p style="margin: 0.2rem 0; color: #fff;"><strong>Date:</strong> 22 November 2025</p>
+    <p style="margin: 0.2rem 0; color: #fff;"><strong>Time:</strong> 9am – 1pm</p>
+  </div>
+
+  <!-- Centered Hero Content -->
+  <img src="Logo2.png" alt="Logo" style="max-width: 200px; margin-bottom: 2rem; margin-top: 4rem;">
+</header>
+
+
+<!-- ✅ Fixed Full-width section -->
+<section id="about">
+  <div>
+    <h2>About Us</h2>
+    <p style="font-size: 1.1rem; line-height: 1.8;">
+      The Annual Women’s Brunch is a premier gathering that empowers, equips, and inspires women across diverse industries. Designed as a hub for connection and growth, it brings together women from all backgrounds to foster meaningful networking, cultivate collaboration, and champion leadership.
+    </p>
+    <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1rem;">
+      The summit provides attendees with actionable strategies, fresh insights, and a supportive community — all designed to enhance your skills, elevate your influence, and expand your impact.
+    </p>
+  </div>
+</section>
+
+<section id="agenda" class="agenda-section" style="padding: 4rem 2rem;">
+  <div class="agenda-details" style="max-width: 800px; margin: auto;">
+    <h2 class="section-title">The Power to Emerge</h2>
+    <p><strong>10:00 AM:</strong> Welcome & Opening Remarks</p>
+    <p><strong>10:30 AM:</strong> Panel Discussion - Leading Through Change</p>
+    <p><strong>12:00 PM:</strong> Networking Brunch</p>
+    <p><strong>1:30 PM:</strong> Keynote Address - Bold Women, Bold Moves</p>
+    <p><strong>3:00 PM:</strong> Closing & Gift Packs</p>
+  </div>
+</section>
+
+
+<section id="speakers">
+  <h2>Meet the Speakers</h2>
+  <div class="speakers">
+    <div class="speaker">
+      <img src="Profile.png" alt="Speaker 1" width="100%">
+      <h3>Dr. Lindiwe Ndlovu</h3>
+      <p>CEO, Women in Tech Africa</p>
+    </div>
+    <div class="speaker">
+      <img src="Profile.png" alt="Speaker 2" width="100%">
+      <h3>Ms. Zanele Khoza</h3>
+      <p>Founder, AfroLead Collective</p>
+    </div>
+    <div class="speaker">
+      <img src="Profile.png" alt="Speaker 3" width="100%">
+      <h3>Thandi Mokoena</h3>
+      <p>Investor & Business Mentor</p>
+    </div>
+  </div>
+</section>
+
+<section id="rsvp">
+  <h2>RSVP & Tickets</h2>
+
+ 
+
+  <!-- ✅ RSVP Form With Dropdown -->
+  <form action="mailto:charmainemaneto@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Full Name" required>
+    <input type="email" name="email" placeholder="Your Email Address" required>
+    
+    <label for="ticket" style="font-weight: bold;">Select Ticket Type:</label>
+    <select name="ticket" id="ticket" required style="padding: 0.8rem; border-radius: 5px; font-size: 1rem; border: 1px solid #ccc;">
+      <option value="" disabled selected>-- Choose Ticket --</option>
+      <option value="Early Bird - R1199">Early Bird - R1199</option>
+      <option value="General - R1399">General - R1399</option>
+    </select>
+
+    <textarea name="message" rows="4" placeholder="Additional Info (optional)"></textarea>
+    <button type="submit" class="btn-primary">Submit RSVP</button>
+  </form>
+</section>
+
+
+
+<footer>
+  © 2025 Women's Executive Brunch | Powered by Boldly Lead Africa
+</footer>
+
+</body>
+</html>
